@@ -11,6 +11,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -28,6 +32,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
 }
 
 h1 {
