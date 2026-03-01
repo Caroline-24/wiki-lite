@@ -29,7 +29,9 @@ WikiLite is a simplified react-based rebuild of Wikipedia.
 
 ## Live Site URL
 
+
 ## Repository URL
+https://github.com/Caroline-24/wiki-lite
 
 ## Future Improvements
 - Integrate real Wikipedia data 
