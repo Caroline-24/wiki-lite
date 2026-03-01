@@ -8,21 +8,32 @@ WikiLite is a simplified react-based rebuild of Wikipedia.
 2. npm install
 3. npm run dev
 
-## Components
-- Header with title
-- Search bar
-- Article preview 
+## Scope of Recreation
+- This project recreates the core user flows of Wikipedia and recreates the home page with search function, article previews, individual article pages, and Wikimedia projects. It focuses on a cleaner navigation and highlighting Wikimedia projects.
 
-## Interactive Features
+## Features Implemented
 - Implemented a search feature that filters articles based on user input
-- Used React state and “onChange” event to update the displayed articles.
+- Clickable article previews
+- Individual article pages using route parameters
+- “Projects” page for Wikimedia projects
+- Navigation bar with Home and Projects links
+- Dark and light mode
 - Added conditional rendering to show a message when no articles match the search.
 
-## Why These Interactions
-This search feature supports my goal of making information easier and faster to find. By allowing users to instantly filter articles, it improves navigation clarity and reduces unnecessary scrolling.
+## Technical Implementation
+- State is managed using useState hook within the Home page
+- Used React Router to got to home page and search and see article previews, go to individual article pages using dynamic route parameters, and see the Wikimedia projects page
+- Used useState to manage search input and filtering
+- Used useParams to retrieve article ID 
+- Used React Router navigation hooks for page transitions
 
-## Planned Next Steps
-- Add clickable article pages with more detailed content.
-- Separate Wikipedia articles and Wikimedia projects into categories.
-- Improve styling and layout for a cleaner and better interface.
+## Live Site URL
+
+## Repository URL
+
+## Future Improvements
+- Integrate real Wikipedia data 
+- Improve mobile responsiveness
+- Add related article suggestions
+- Expand article content structure with headings and sections
 
